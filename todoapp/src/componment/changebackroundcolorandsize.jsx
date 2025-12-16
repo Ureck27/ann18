@@ -1,23 +1,20 @@
 import { createRoot } from 'react-dom/client'
 import { useState } from 'react'
+ 
+const Btn =(props)=>{
+   return (
+        <button onClick={}>{props.title}</button>
+   )
+}
 
-function MyForm() {
-  const [mytxt, setMytxt] = useState("");
-
-  function handleChange(e) {
-    setMytxt(e.target.value);
-  }
-
-  return (
-    <form>
-      <label>Write here:
-        <textarea
-          value={mytxt}
-          onChange={handleChange}
-        />
-      </label>
-      <p>Current value: {mytxt}</p>
-    </form>
+const EXo02=()=>{
+  return(
+    <>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div><h1></h1></div>
+    </>
   )
 }
-export default MyForm;
+export default  EXo02;

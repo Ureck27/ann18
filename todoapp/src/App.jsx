@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Sabmet from './componment/inoutbutton'
+import Todolist from './componment/ToDOlist'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -8,8 +9,8 @@ function App() {
   return (
     <>
      <div className='app'>
-        <Sabmet />
-         
+    
+        <Todolist />
      </div>
       
     </>
