@@ -5,8 +5,8 @@ const Button =({lable,onClick})=>{
 }
 
 const EXo02 =()=>{
-    const [] = ;
-    const [] = ;
-    const [] = ;
-    
+    const [y,o] =q ;
+    const [g,q] =o ;
+    const [a,b] = c;
+
 }

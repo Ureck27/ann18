@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './788.jsx'
 import Sabmet from './componment/inoutbutton'
 import Todolist from './componment/ToDOlist'
+import Text from './componment/input.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,7 @@ function App() {
     <>
      <div className='app'>
     
-        <Todolist />
+        <Text />
      </div>
       
     </>
