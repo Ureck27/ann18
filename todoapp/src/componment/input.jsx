@@ -4,9 +4,7 @@ import { useState } from "react";
 
 const Text=()=>{
     const [Text , setText] = useState("");
-    const SetText=(t)=>{
-         SetText(t.target.value)
-    }
+    const SetText=
     return(
         <div>
             <h1>{Text}</h1>
