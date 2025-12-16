@@ -12,8 +12,9 @@ const Text=()=>{
             <h1>{Text}</h1>
             <input 
             type="text" 
-            value={Text}
-            onChange="SetText"       />
+           // value={Text}
+          //  onChange="SetText"    
+             />
             <button>Add</button>
         </div>
     )
