@@ -1,7 +1,5 @@
 export default function ShowInputValue(){
-      const [name, setName] = useState("");
-      const [name, setName] = useState("");
-
+   
 
 
     return (

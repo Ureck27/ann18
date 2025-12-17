@@ -7,6 +7,6 @@ import Text from './componment/input.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Text />
+   <App />
   </StrictMode>,
 )
