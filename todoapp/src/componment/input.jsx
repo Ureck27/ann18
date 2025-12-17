@@ -4,7 +4,7 @@ import { useState } from "react";
 
 const Text=()=>{
     const [Text , setText] = useState("");
-    const SetText=
+   
     return (
         <>
         <div>
