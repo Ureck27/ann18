@@ -1,12 +1,20 @@
-export default function ShowInputValue(){
-   
+import { useState } from "react"
+const todoist =()=>{
+   const [Todo , setT] = useState()
 
-
-    return (
+    return(
         <>
-         <h1>{screenvalue}</h1>
-         <input type="text"
-          onChange={handelInput} />
+          <div>
+             <h1>To Do List </h1>
+             <input type="text" />
+             <button>Add</button>
+          </div>
+          <div>
+             <ul>
+                <li>
+                </li>
+             </ul>
+          </div>
         </>
     )
 }

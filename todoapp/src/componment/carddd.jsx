@@ -1,10 +1,12 @@
+import { useState } from "react"
 
-function UpLower(){
+const useee = ()=> {
+    
     const[textTransform, setTextTransform] = useState("capitalize");
     const [sizee , setsizee] = useState("100px")
     const[colore , setcolore]=useState("green")
     const [backgrounde , setbackground]= useState("Orange")
-    return(
+    return (
         <>
             <section >
                 <h6>SCREEN</h6>
@@ -74,10 +76,6 @@ function UpLower(){
             </section>
         </>
     )
-   
-}
+};
 
-
-
-
-export default UpLower ;
+export default useee ;
