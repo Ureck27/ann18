@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import { Car } from './componment/cars'
+import Hello from './componment/hello'
 
 function App() {
 
   return (
     <>
      <div className='app'>
-     <Car />
+      <Hello />
      </div>
       
     </>
