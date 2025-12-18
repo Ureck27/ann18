@@ -1,6 +1,6 @@
 import { createRoot } from 'react-dom/client'
-
-function Car(props) {
+import React from 'react';
+default export  function Car(props) {
     const carInfo = {
   name: "Ford",
   model: "Mustang",
@@ -14,4 +14,4 @@ function Car(props) {
     </>
   );
 }
-default export Car ;
+
