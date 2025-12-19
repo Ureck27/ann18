@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import Hello from './componment/Homepage.componment'
+import Homepage from './componment/Homepage.componment'
 
 function App() {
 
   return (
     <>
      <div className='app'>
-      <Hello />
+      <Homepage />
      </div>
       
     </>
