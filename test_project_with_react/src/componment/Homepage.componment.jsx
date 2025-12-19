@@ -1,12 +1,13 @@
 import React from "react";
+import "./Homepage.style.scss"
 const Homepage =() =>{
     
 
 
       return (
         <>
-          <div className="container_Homepage">
-             <div className="drictory_menu">
+          <div className="Homepage">
+             <div className="drictory-menu">
                 <div className="menu-item">
                   <div className="content">
                     <h1 className="title">Hats</h1>
